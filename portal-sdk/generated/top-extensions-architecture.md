@@ -57,7 +57,7 @@ UI extensions develop their Blades and Parts following the [MVVM](portalfx-exten
 
 UI extensions develop a Blade or Part to this pattern by developing a TypeScript class adorned with a TypeScript decorator, as in the following code.
 
-```
+```TypeScipt
 @TemplateBlade.Decorator({
     htmlTemplate: "./WebsiteDetails.html"
 })
